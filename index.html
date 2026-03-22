@@ -1,1 +1,255 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dương Stretching</title>
 
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+body{
+  margin:0;
+  font-family:'Poppins',sans-serif;
+  background:linear-gradient(135deg,#0f172a,#020617);
+  color:#fff;
+}
+
+/* HEADER */
+header{
+  padding:60px 20px;
+  text-align:center;
+  background:radial-gradient(circle at top,#1e293b,#020617);
+}
+
+h1{font-size:42px;margin:0}
+.highlight{color:#22c55e}
+p{opacity:0.8}
+
+nav{margin-top:20px}
+nav a{
+  margin:0 10px;
+  color:#94a3b8;
+  text-decoration:none;
+}
+nav a:hover{color:#22c55e}
+
+/* SECTION */
+section{
+  padding:50px 20px;
+  max-width:1100px;
+  margin:auto;
+}
+
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+  gap:20px;
+}
+
+/* CARD */
+.card{
+  background:rgba(30,41,59,0.7);
+  backdrop-filter:blur(10px);
+  border-radius:18px;
+  overflow:hidden;
+  box-shadow:0 15px 35px rgba(0,0,0,0.4);
+  transition:0.3s;
+}
+.card:hover{
+  transform:translateY(-8px);
+}
+.card img{
+  width:100%;
+  height:180px;
+  object-fit:cover;
+}
+.card-content{
+  padding:15px;
+}
+.card h3{margin:0 0 10px}
+
+/* BUTTON */
+.cta{
+  display:inline-block;
+  margin-top:10px;
+  padding:10px 16px;
+  background:#22c55e;
+  border-radius:10px;
+  color:#000;
+  text-decoration:none;
+  font-weight:600;
+}
+
+/* FLOAT BUTTON */
+.float-btn{
+  position:fixed;
+  right:20px;
+  padding:12px 16px;
+  border-radius:999px;
+  color:#fff;
+  text-decoration:none;
+  z-index:999;
+  font-size:14px;
+}
+.zalo{bottom:120px;background:#0068ff}
+.fb{bottom:60px;background:#1877f2}
+.tiktok{bottom:180px;background:#000}
+
+/* FOOTER */
+footer{
+  text-align:center;
+  padding:20px;
+  background:#020617;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Dương <span class="highlight">Stretching</span></h1>
+<p>Giãn cơ – Thư giãn – Linh hoạt mỗi ngày</p>
+<a class="cta" href="https://zalo.me/0961014099">Đặt lịch ngay</a>
+
+<nav>
+<a href="#gioithieu">Giới thiệu</a>
+<a href="#banggia">Gói dịch vụ</a>
+<a href="#blog">Kiến thức</a>
+<a href="#lienhe">Liên hệ</a>
+</nav>
+</header>
+
+<!-- GIỚI THIỆU -->
+<section id="gioithieu">
+<h2>Chúng tôi có gì & phù hợp với ai</h2>
+
+<div class="grid">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1600334129128-685c5582fd35">
+<div class="card-content">
+<h3>Kỹ thuật chắc tay</h3>
+<p>Tập trung xử lý đúng điểm căng cứng giúp cơ mềm và dễ chịu rõ rệt.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5">
+<div class="card-content">
+<h3>Hiệu quả rõ ràng</h3>
+<p>Giảm mỏi, tăng linh hoạt và nhẹ người sau mỗi buổi.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1591343395902-1adcb454c4a2">
+<div class="card-content">
+<h3>Phù hợp nhiều người</h3>
+<p>Dân văn phòng, gym, thể thao hoặc cơ thể mỏi lâu ngày.</p>
+</div>
+</div>
+
+</div>
+</section>
+
+<!-- BẢNG GIÁ -->
+<section id="banggia">
+<h2>Gói dịch vụ</h2>
+
+<div class="grid">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438">
+<div class="card-content">
+<h3>Giải Cơ Phục Hồi - 40 phút</h3>
+<p>Giải cơ 1 vùng - giảm đau tập trung<br>
+Làm nóng mô cơ<br>
+Xác định điểm đau<br>
+Giảm căng cứng<br>
+Phạm vi: cổ vai gáy hoặc lưng</p>
+<p><strong>220.000đ</strong></p>
+<a class="cta" href="https://zalo.me/0961014099">Đặt ngay</a>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1599058917212-d750089bc07e">
+<div class="card-content">
+<h3>Giải Cơ - Massage - 60 phút</h3>
+<p>Giảm đau sâu + massage<br>
+Xử lý điểm đau chính<br>
+Day ấn theo thớ cơ<br>
+Phạm vi: vai + lưng</p>
+<p><strong>320.000đ</strong></p>
+<a class="cta" href="https://zalo.me/0961014099">Đặt ngay</a>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1545205597-3d9d02c29597">
+<div class="card-content">
+<h3>Massage - Giải cơ 90 phút</h3>
+<p>Toàn thân + thư giãn sâu<br>
+Giải phóng dính cơ<br>
+Giảm căng kéo<br>
+Phạm vi: toàn thân</p>
+<p><strong>400.000đ</strong></p>
+<a class="cta" href="https://zalo.me/0961014099">Đặt ngay</a>
+</div>
+</div>
+
+</div>
+</section>
+
+<!-- BLOG -->
+<section id="blog">
+<h2>Kiến thức hữu ích</h2>
+
+<div class="grid">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61">
+<div class="card-content">
+<h3>Đau cổ vai gáy do đâu?</h3>
+<p>Ngồi lâu, sai tư thế là nguyên nhân chính.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1594737625785-cb1c5d0c7b0f">
+<div class="card-content">
+<h3>Ngồi máy tính bị đau lưng</h3>
+<p>Cơ bị căng kéo lâu ngày cần giãn đúng cách.</p>
+</div>
+</div>
+
+</div>
+</section>
+
+<!-- LIÊN HỆ -->
+<section id="lienhe">
+<h2>Liên hệ</h2>
+
+<div class="card">
+<div class="card-content">
+<p>📍 24/2/5b đường 23, KDC Thành Uỷ, Hiệp Bình Chánh, Thủ Đức</p>
+<p>📞 0961014099</p>
+<p>⏰ 09:00 - 21:00</p>
+<a class="cta" href="https://maps.app.goo.gl/8fhPczKwHspt1KxB7">Chỉ đường</a>
+</div>
+</div>
+
+</section>
+
+<!-- FLOAT BUTTON -->
+<a class="float-btn tiktok" href="https://www.tiktok.com/@duongtrilieu94?_r=1&_t=ZS-94tsDkvn1Qy">TikTok</a>
+<a class="float-btn zalo" href="https://zalo.me/0961014099">Zalo</a>
+<a class="float-btn fb" href="https://www.facebook.com/share/17t9ib2gTr/?mibextid=wwXIfr">Facebook</a>
+
+<footer>
+© 2026 Dương Stretching
+</footer>
+
+</body>
+</html>
