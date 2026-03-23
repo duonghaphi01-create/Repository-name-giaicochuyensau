@@ -30,11 +30,21 @@ p{
   color:#21523cc4;
   opacity:1;
 }
-nav{margin-top:20px}
+nav{
+  margin-top:20px;
+  display:flex;
+  justify-content:center;
+  flex-wrap:nowrap;
+  overflow-x:auto;
+  scroll-behavior:smooth;
+}
+
 nav a{
-  margin:0 10px;
+  margin:0 8px;
   color:#ffffff;
   text-decoration:none;
+  white-space:nowrap;
+  flex-shrink:0;
 }
 nav a:hover{color:#f97316}
 
