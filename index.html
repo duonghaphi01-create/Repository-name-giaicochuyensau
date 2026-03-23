@@ -95,6 +95,17 @@ section{
   justify-content:center;
   z-index:999;
 }
+  @keyframes shake {
+  0%, 90%, 100% { transform: translateX(0); }
+  92% { transform: translateX(-3px); }
+  94% { transform: translateX(3px); }
+  96% { transform: translateX(-3px); }
+  98% { transform: translateX(3px); }
+}
+
+.float-btn{
+  animation: shake 3s infinite;
+}
   .float-btn img{
   width:35px;
   height:35px;
